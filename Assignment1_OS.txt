@@ -56,13 +56,8 @@ who =>  The who command is used to get information about currently logged in use
 5. seq -s “STRING” FIRST INCREMENT LAST : This command is uses to STRING to separate numbers. By default this value is equal to "\n". FIRST and INCREMENT are optional.
 6. seq -w FIRST INCREMENT LAST : This command is used to equalise width by padding with leading zeroes. FIRST and INCREMENT are optional.
 
-1. 10. clear => clear screen.
-
-
-
-
+1) 10. clear => clear screen.
 2)
-
 A)
 mkdir a b c
 cd a
@@ -77,17 +72,14 @@ cp -r c a
 
 B)  
  mv b c
+ 
+C) alias Tushar="ls -lh"
 
-
-c) alias bhargav="ls -lh"
-
-d) mv a cdac
-
-
+D) mv a cdac
 3)
 A)
 touch file1.txt file2.txt file3.txt file4.txt file5.txt
-echo 'Bhargav'>> file1.txt file2.txt file3.txt file4.txt file5.txt  
+echo 'Tushar'>> file1.txt file2.txt file3.txt file4.txt file5.txt  
 b)cat file1.txt file2.txt file3.txt file4.txt file5.txt
 c)touch file1.txt file2.txt file3.txt file4.txt file5.txt
 d) rm -r c cdac a
@@ -117,36 +109,38 @@ g)ls -ld
 
 ##################################################################
 
-1)mkdir Bhargav 
+1)mkdir tushar 
 touch a.txt b.txt c.txt dtxt
-chmod u-rwx Bhargav
+chmod u-rwx Tushar
 a)chmod u+rw- bar
 b)chmod +r--
 c) chmod +x
 
-2)chmod +x Bhargav
-3)chmod -wx Bhargav	
+2)chmod +x Tushar
+3)chmod -wx Tushar	
 4)echo * Bhargav	
 5)echo * /etc/
 6)find /etc -type f -name "*.conf"
 7)echo 'helloo' >> a.txt
 
 1)
-
 mkdir a
 cd a
 touch a.txt 
 touch .hidden.txt
-a.
+A.
 mkdir b
 cd b
 touch b.txt 
 touch .hidden1.txt
-b.mkdir c
+B.
+mkdir c
 touch c.txt 
 touch .hidden2.txt
-c. cp -r  c a
-d.cp -r a/a.txt a/b
+c.
+cp -r  c a
+D.
+cp -r a/a.txt a/b
  cp -r a/c/ a/b
 
 2)
